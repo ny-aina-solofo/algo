@@ -8,7 +8,6 @@
 */
 
 function countBs(text) {
-	// console.log(text.length);
 	let counter = 0;
 	for(let i = 0; i < text.length; i++) 
 	{
@@ -23,7 +22,6 @@ function countBs(text) {
 }
 
 function countChar(text, Char) {
-	// console.log(text.length);
 	let counter = 0;
 	for(let i = 0; i < text.length; i++) 
 	{
@@ -38,5 +36,5 @@ function countChar(text, Char) {
 }
 
 // countBs('Baby born bad Boys');
-// countChar('Baby born bad Boys','r');
+countChar('Baby born bad Boys','r');
 

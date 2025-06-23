@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2015", // Ou "es6" - cela assure que String.prototype.includes est disponible
+    "module": "commonjs", // ou "esnext" si vous utilisez les modules ES6
+    "strict": true,       // Bonne pratique, active toutes les vérifications de type strictes
+    "esModuleInterop": true // Utile pour l'import/export de modules
+  },
+  "include": [
+    "char_occurence.ts","*.ts" // Indique à TypeScript quel(s) fichier(s) compiler
+  ]
+}
