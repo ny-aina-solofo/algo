@@ -1,3 +1,6 @@
+# la suite de Fibonacci :
+# une suite de nombres entiers dans laquelle chaque terme est le résultat de l’addition des deux nombres qui le précèdent :
+
 # Fibonacci with Recursion
 def fibonacci(n):
 	if n == 0 : 

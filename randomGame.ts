@@ -27,7 +27,7 @@ function randomGame():void {
 		const resultPlayer2:number = getRandomIntInclusive(1,6);
 		
 		console.log(`Joueur 1 a lancé : ${resultPlayer1}`);
-    console.log(`Joueur 2 a lancé : ${resultPlayer2}`);
+    	console.log(`Joueur 2 a lancé : ${resultPlayer2}`);
 		
 		if(resultPlayer1 > resultPlayer2) {
 			score1++;
