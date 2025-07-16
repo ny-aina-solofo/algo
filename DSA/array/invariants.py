@@ -11,7 +11,7 @@ def minimum(number,array) :
 	for index in range(1, number) :
 		# min equals the minimum item in array[0],...,array[i-1]
 		if array[index] < minimum :  
-			min = array[index]
+			minimum = array[index]
 	
 	# min equals the minimum item in array[0],...,array[i-1], and i == number
 	return minimum
