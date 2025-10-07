@@ -8,11 +8,11 @@
 #
 
 def simpleArraySum(array):
-    sum = 0
+    Sum = 0
     result = 0
     for index in range(0,len(array)) :
-        sum += array[index]
-    result = sum 
+        Sum += array[index]
+    result = Sum 
     return result    
 
 
